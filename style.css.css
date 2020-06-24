@@ -1,0 +1,155 @@
+/*GERAL*/
+
+body{
+
+   
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+/*texto*/
+.title{
+   
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/*limitações*/
+.lim{
+
+    max-height: 200px;
+    max-width: 100%;
+}
+/*cabeçalho*/
+.header{ 
+
+    width: 100%;
+    height: 300px;
+    height: 30vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: blue;
+}
+/*info*/
+.orange{
+    width: 33.4%;
+    height: 550px;
+    height: 55vh;
+    background-color:chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left !important;
+}
+/*info*/
+.purple{
+    
+    float: left;
+    width: 33.3%;
+    height: 550px;
+    height: 55vh;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+/*info*/
+.red{
+    width: 33.3%;
+    height: 550px;
+    height: 55vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    
+}
+/*inscrição*/
+.sign{  
+    width: 100%;
+    height: 200px;
+    height: 20vh;
+    background-color: rgb(164, 164, 224) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*conteudo*/
+.content{
+    background-color: white;
+    width: 100%;
+    height:500px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*responsividade tablet*/
+@media screen and (max-width:1024px){
+
+    .header{
+        height: 20vh;
+    }
+
+    .orange{
+
+        width: 50% ;
+        height: 200px ;
+        height: 20vh ;  
+        float: right !important;
+    }
+    .purple{
+
+        width: 50% ;
+        height: 200px;
+        height: 20vh ;  
+        float: right !important;   
+        position: relative;  
+        left: 37.5vh;
+        top:20vh;
+    }
+    .red{
+
+       width: 50% ;
+       height: 200px;
+        height: 20vh ; 
+        float: left !important;   
+
+    }
+    
+    .sign{
+        width: 50% ;
+        height: 200px;
+        height: 20vh ; 
+        float: right !important;
+        position: absolute;
+        
+    }
+    
+}
+/*REPONSIVIDADE MOBILE */
+
+@media only screen and (max-width:360px){
+
+    .header,.orange,.purple,.red,.sign{
+        width: 100% ;
+        height: 20vh;
+        top:0;
+        left: 0;
+
+    }
+    
+}
+
+
+
+
+
+
